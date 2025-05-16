@@ -5,13 +5,38 @@
     <title>title</title>
 </head>
 <body>
+  
     <form>
-    <h3>Cadastro</h3>
-     <input type="text" placeholder="login" id="login">
-     <input type="password" placeholder="senha" id="senha">
-     <input type="email" placeholder="email" id="email">
-     <input type="telephone" placeholder="telefone" id="tele">
-     <input type="submit" onclick="logar()"; return false>
+   
+       <h3>Cadastro</h3>
+      <input type="text" placeholder="login" id="login">
+      <input type="password" placeholder="senha" id="senha">
+      <input type="email" placeholder="email" id="email">
+      <input type="telephone" placeholder="telefone" id="tele">
+      <input type="submit" onclick="logar()"; return false>
+   
     </form>
+    
+    <script>
+
+      function logar(){
+
+           var login = document.getElementById('login').value;
+           var senha = document.getElementById('senha').value;
+
+
+           if(login == "peepee" && senha == "poopoo"){
+             alert('sucesso');
+             location.href = "home.html";
+           }else{
+                alert('usuario ou senha incorretos');
+           }
+
+
+
+           }
+
+    </script>
+  
 </body>
 </html>
