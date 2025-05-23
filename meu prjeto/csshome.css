@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(43, 42, 42) ;
+}
+
+.posters{
+    height: 300px;
+    width: 300px; 
+border-radius: 10px;
+ margin-left: 50px;
+}
+
+#homealone{
+   height: 500px;
+   width: 1500px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    
+}
+
+.linha{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
